@@ -4,11 +4,11 @@ Line-of-business application support and administration in a healthcare environm
 
 ---
 
-## Platform Ownership
+## Platform Administration Ownership
 
-**Sole IT Administrator, Monday.com and in-house AI platform** (July 2026 to present)
+**Sole administrator for Monday.com and an in-house AI platform, held alongside my Service Desk Technician role** (July 2026 to present)
 
-As of July 2026 I own IT administration for two enterprise platforms outright, rather than supporting them as one technician among several. This is the first work where I'm the single accountable owner of a platform rather than a contributor to it.
+My title is still Service Desk Technician. As of July 2026 I'm also the sole IT administrator for two enterprise platforms, which is added scope on top of that role rather than a role change. It's the first work where I'm the single accountable owner of a platform rather than one contributor among several.
 
 ### Monday.com (Work Management Platform)
 
