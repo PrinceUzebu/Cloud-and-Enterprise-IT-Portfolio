@@ -4,7 +4,7 @@ Production engineering work, not lab exercises. Each write-up covers the busines
 
 | Project | Status | Domain | Summary |
 |---|---|---|---|
-| [Offshore Engineer Isolation & AppLocker Hardening](./AppLocker-Isolation.md) | ✅ Complete, pending final security sign-off | Endpoint Security · Application Control · Tanium Enforce | Designed and implemented a technically-enforced isolation boundary for a third-party contractor VM, enforced by policy rather than trust |
+| [Offshore Engineer Isolation & AppLocker Hardening](./AppLocker-Isolation.md) | ✅ Complete, pending final security sign-off | Endpoint Security · Application Control · Privileged Access Management · Tanium Enforce | Designed and implemented a technically-enforced isolation boundary for a third-party contractor VM, enforced by policy rather than trust |
 | [Dynamic Travel Access Provisioning](./Dynamic-Travel-Access-Provisioning.md) | 🔄 In Progress, design & feasibility | Identity & Access Management · Entra ID · Endpoint Policy | Designing a dynamic Entra ID group model to auto-provision and auto-revoke elevated device access for traveling employees |
 
 ---

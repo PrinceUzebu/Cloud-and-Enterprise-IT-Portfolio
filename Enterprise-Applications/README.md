@@ -19,7 +19,7 @@ Sole IT administrator for the organization's work management platform, following
 - End-user enablement and troubleshooting
 - Access coordination as part of onboarding and offboarding
 
-Being the only admin changes how you work. There's no second person to sanity-check a permission change before it affects everyone on a board, so the discipline from the [AppLocker isolation project](../Experience-Journal/Cloud-Projects/AppLocker-Isolation.md) transfers directly: understand the current state before changing it, and don't make a change you can't explain or reverse.
+Being the only admin means there's no second person to sanity-check a permission change before it affects everyone on a board.
 
 ### In-House AI Platform
 
@@ -60,17 +60,9 @@ Generalized by category rather than product name:
 
 ---
 
-## The Pattern Across All Of Them
-
-Every one of these platforms produced the same class of ticket: **a user-facing symptom that maps to several unrelated root causes across different layers.** "I can't get into the system" is identity, licensing, network path, client version, or the vendor's outage, and the fix is completely different in each case.
-
-Doing this across five or six platforms is what built the habit of isolating the failing layer before touching anything, which is the single most transferable skill from application support into infrastructure work.
-
----
-
 ## Roadmap
 
 - [ ] Document a Monday.com administration project end to end (permission model design, or automation build)
 - [ ] Document AI platform enablement work: what the common support patterns turn out to be, and what actually reduces them
 - [ ] Document an application integration or SSO configuration project end to end
-- [ ] Write up an application access review cycle, tying into the [IAM](../Experience-Journal/IAM/) and [PAM](../Experience-Journal/Privileged-Access-Management/) sections
+- [ ] Write up an application access review cycle end to end

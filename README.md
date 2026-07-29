@@ -26,16 +26,11 @@ Cloud is my main focus: Azure, Microsoft 365, Identity & Access Management, auto
 |---|---|
 | [`Certifications/`](./Certifications) | AZ-104, AI-900, PSM I, and Epic Credentialed Trainer, with context behind each one, not just badges |
 | [`Experience-Journal/Cloud-Projects/`](./Experience-Journal/Cloud-Projects) | End-to-end Azure infrastructure projects, including AppLocker isolation and dynamic access design |
-| [`Experience-Journal/IAM/`](./Experience-Journal/IAM) | Identity & Access Management work: provisioning, least privilege, lifecycle management |
-| [`Experience-Journal/Privileged-Access-Management/`](./Experience-Journal/Privileged-Access-Management) | Controlling elevated and outsourced access without slowing the business down |
 | [`Experience-Journal/Security-Incident-Response/`](./Experience-Journal/Security-Incident-Response) | Real incidents: how they were triaged, contained, and resolved |
 | [`Experience-Journal/Microsoft365-Administration/`](./Experience-Journal/Microsoft365-Administration) | M365 tenant administration, Exchange Online, and Entra ID work |
 | [`Experience-Journal/Professional-Recognition/`](./Experience-Journal/Professional-Recognition) | Peer and leadership recognition, including the Shimmer Award and what earned it |
 | [`Experience-Journal/Career-Milestones/`](./Experience-Journal/Career-Milestones) | Timeline of certifications, role changes, and key turning points |
-| [`Azure-Labs/`](./Azure-Labs) | Hands-on Azure environment builds, going past AZ-104 exam labs into real deployed resources |
-| [`Home-Labs/`](./Home-Labs) | Self-directed learning environments built to go deeper than my day job scope allows |
-| [`Tools-and-Automation/`](./Tools-and-Automation) | Scripts and automations I built to cut out repetitive manual work |
-| [`Enterprise-Applications/`](./Enterprise-Applications) | Line-of-business application support and administration experience |
+| [`Enterprise-Applications/`](./Enterprise-Applications) | Line-of-business application support and administration, including platforms I administer solo |
 | [`Service-Desk-Experience/`](./Service-Desk-Experience) | Aggregated skill and volume summary across 100+ resolved tickets |
 
 ---
@@ -43,6 +38,18 @@ Cloud is my main focus: Azure, Microsoft 365, Identity & Access Management, auto
 ## 🛠️ Core Skills
 
 `Azure Administration` · `Microsoft 365` · `Entra ID / Identity & Access Management` · `Privileged Access Management` · `Security Incident Response` · `PowerShell Automation` · `Conditional Access` · `Intune / Device Management` · `SaaS Platform Administration (Monday.com)` · `AI Platform Administration` · `Service Desk Operations` · `Agile (Scrum)`
+
+---
+
+## 🔭 What I'm Building Next
+
+Current learning track. These are plans rather than finished work, so they live here instead of as their own sections. Each one moves into the repo properly once there's something real to show.
+
+- **Terraform / Infrastructure as Code:** mentor-led project migrating enterprise infrastructure from manual configuration to IaC. Genuinely new territory for me, and I'll document the learning curve honestly rather than retroactively.
+- **Azure labs:** VNet peering and NSG rule design, hybrid identity, Conditional Access simulation with a break-glass account, and cost management alerting.
+- **PowerShell automation:** Exchange Online permission auditing, Entra ID group membership export for access reviews, and an offshore-engineer onboarding script that follows directly from the AppLocker project.
+- **Entra ID PIM:** just-in-time role activation with an approval workflow.
+- **SC-300:** Identity and Access Administrator, the natural next certification given the identity work in this repo.
 
 ---
 

@@ -32,16 +32,8 @@ Examples below are generalized. No requester names, email addresses, or organiza
 
 ---
 
-## What This Work Taught Me That Transfers To Cloud
-
-M365 administration is where I learned that **the error message is almost never the problem.** A user reporting "Outlook won't open" has given you a symptom that maps to at least six unrelated root causes: profile corruption, license lapse, conditional access, MFA token expiry, VDI session state, or actual mail flow failure.
-
-Building the habit of isolating which layer is actually broken, before touching anything, is the same instinct that made the [Tanium "0 of 0 members"](../Cloud-Projects/AppLocker-Isolation.md) result read as a sensor evaluation lag rather than a failed configuration. That diagnosis saved a rebuild of a group that was already working correctly.
-
----
-
 ## Roadmap
 
-- [ ] Exchange Online PowerShell: bulk reporting scripts, see [Tools-and-Automation](../../Tools-and-Automation/)
+- [ ] Exchange Online PowerShell: bulk reporting and permission audit scripts
 - [ ] Conditional Access policy design lab
 - [ ] Microsoft Purview and retention policy fundamentals (relevant to HIPAA retention requirements)

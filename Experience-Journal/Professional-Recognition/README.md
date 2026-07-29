@@ -22,8 +22,4 @@ Nominated by peers for the Hummingbird Healthcare "Shimmer Award," which recogni
 
 ---
 
-## Why This Belongs In A Cloud Engineering Portfolio
-
-Recognition like this is easy to dismiss as a soft-skills footnote, but two of the three quotes above describe the same specific thing: **reliability under live, high-visibility, no-retry conditions.** Real-time event production has a lot in common with a production incident. Something is going wrong right now, people are watching, and the useful person in the room is the one who stays calm and communicates clearly while fixing it.
-
-That's also the environment where the [AppLocker isolation work](../Cloud-Projects/AppLocker-Isolation.md) happened: a live production policy affecting roughly 300 endpoints, a compliance deadline, and a security lead who needed documentation clear enough to sign off against. Composure and clear written communication weren't adjacent to that work, they were the deliverable.
+Two of the three quotes describe the same thing: reliability under live, high-visibility conditions with no chance to retry. That's the same quality that matters during a production incident.

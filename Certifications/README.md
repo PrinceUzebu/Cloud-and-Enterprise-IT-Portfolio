@@ -11,14 +11,12 @@
 
 ## Why This Combination Matters
 
-Most junior cloud candidates have a certification. Fewer have the **Scrum/Agile delivery background** to work inside a sprint-based engineering team, and even fewer have **healthcare application training credentials**, meaning I can translate complex technical change into plain language for clinical and business end users, not just engineers.
-
-That combination shows up directly in the [AppLocker Isolation project](../Experience-Journal/Cloud-Projects/AppLocker-Isolation.md), where the technical documentation had to serve a security engineering audience and a non-technical IT leadership audience at the same time.
+The Scrum and Epic credentials are the unusual part. They mean I can work inside a sprint-based engineering team and translate technical change into plain language for clinical and business users, which is exactly what the [AppLocker Isolation write-up](../Experience-Journal/Cloud-Projects/AppLocker-Isolation.md) had to do for a security engineering audience and IT leadership at the same time.
 
 ---
 
 ## Roadmap
 
 - [ ] **AZ-305**, Azure Solutions Architect Expert
-- [ ] **SC-300**, Identity and Access Administrator (natural next step given the [IAM work](../Experience-Journal/IAM/) in this repo)
-- [ ] **Terraform Associate** (HashiCorp). See [Home-Labs](../Home-Labs/) for the IaC learning track
+- [ ] **SC-300**, Identity and Access Administrator
+- [ ] **Terraform Associate** (HashiCorp)
