@@ -32,9 +32,11 @@ Cloud is my main focus: Azure, Microsoft 365, Identity & Access Management, auto
 | [`Experience-Journal/Microsoft365-Administration/`](./Experience-Journal/Microsoft365-Administration) | M365 tenant administration, Exchange Online, and Entra ID work |
 | [`Experience-Journal/Professional-Recognition/`](./Experience-Journal/Professional-Recognition) | Peer and leadership recognition, including the Shimmer Award and what earned it |
 | [`Experience-Journal/Career-Milestones/`](./Experience-Journal/Career-Milestones) | Timeline of certifications, role changes, and key turning points |
+| [`Azure-Labs/`](./Azure-Labs) | Hands-on Azure environment builds, going past AZ-104 exam labs into real deployed resources |
 | [`Home-Labs/`](./Home-Labs) | Self-directed learning environments built to go deeper than my day job scope allows |
 | [`Tools-and-Automation/`](./Tools-and-Automation) | Scripts and automations I built to cut out repetitive manual work |
 | [`Enterprise-Applications/`](./Enterprise-Applications) | Line-of-business application support and administration experience |
+| [`Service-Desk-Experience/`](./Service-Desk-Experience) | Aggregated skill and volume summary across 100+ resolved tickets |
 
 ---
 

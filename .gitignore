@@ -1,0 +1,58 @@
+# ---------------------------------------------------------------------------
+# Sanitization guard rails
+#
+# This is a PUBLIC repository documenting work performed at a HIPAA-regulated
+# healthcare organization. Raw ticket exports contain requester names, work
+# email addresses, phone numbers, and free-text descriptions that must never
+# be committed here. Aggregate them into Service-Desk-Experience/README.md
+# instead — themes and volume only, never raw rows.
+# ---------------------------------------------------------------------------
+
+# Raw ticket / helpdesk exports (FreshService, ServiceNow, etc.)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.xlsm
+Ticket-Exports/
+Raw-Exports/
+exports/
+*-export.*
+*_export.*
+
+# Internal scaffolding, drafts, and working notes (kept local, not published)
+*Starter_Package*.md
+*_DRAFT.md
+*-draft.md
+Drafts/
+Scratch/
+_working/
+
+# Documents that commonly carry unsanitized screenshots or client detail
+*.docx
+*.doc
+*.pptx
+*.pdf
+*.msg
+*.eml
+
+# Credentials / secrets — nothing of this shape belongs in a portfolio repo
+*.env
+.env*
+*.pem
+*.key
+*.pfx
+*.publishsettings
+secrets.json
+appsettings.*.json
+
+# OS / editor noise
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
