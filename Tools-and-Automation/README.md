@@ -10,11 +10,11 @@ Scripts and automations built to cut out repetitive manual work. Everything here
 
 The automation surface I'm targeting first, since it's where enterprise Windows and M365 administration actually lives.
 
-- [ ] **Exchange Online reporting** — mailbox permission and delegation audit across the tenant, because tracing "who has access to this shared mailbox" by hand does not scale
-- [ ] **Entra ID group membership export** — snapshot group membership for access review cycles, relevant to the [IAM roadmap](../Experience-Journal/IAM/)
-- [ ] **Bulk user provisioning** — new-hire account creation with license assignment and group membership in one pass
-- [ ] **Stale account report** — accounts with no sign-in activity past a threshold, the input to any real access review
-- [ ] **Offshore engineer onboarding helper** — the direct follow-up to the [AppLocker isolation project](../Experience-Journal/Cloud-Projects/AppLocker-Isolation.md): script the computer group membership add *and* verify exclusion from the standard fleet policy, so the two-step boundary can't be half-completed by hand
+- [ ] **Exchange Online reporting**: mailbox permission and delegation audit across the tenant, because tracing "who has access to this shared mailbox" by hand does not scale
+- [ ] **Entra ID group membership export**: snapshot group membership for access review cycles, relevant to the [IAM roadmap](../Experience-Journal/IAM/)
+- [ ] **Bulk user provisioning**: new-hire account creation with license assignment and group membership in one pass
+- [ ] **Stale account report**: accounts with no sign-in activity past a threshold, the input to any real access review
+- [ ] **Offshore engineer onboarding helper**: the direct follow-up to the [AppLocker isolation project](../Experience-Journal/Cloud-Projects/AppLocker-Isolation.md). Script the computer group membership add *and* verify exclusion from the standard fleet policy, so the two-step boundary can't be half-completed by hand
 
 ---
 

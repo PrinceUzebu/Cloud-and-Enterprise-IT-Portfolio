@@ -15,7 +15,7 @@ This section indexes the IAM-focused work across the portfolio, plus the concept
 
 Most of my IAM work so far has centered on one question: **when should access be automatic, and when should a human have to sign off?**
 
-Front-line service desk work taught me the cost of getting that wrong in the friction direction — every unnecessary approval gate is a ticket, a delay, and a frustrated clinician. The AppLocker isolation project taught me the cost of getting it wrong in the other direction, where automated membership evaluation on a security boundary means the boundary can silently move without anyone deciding to move it.
+Front-line service desk work taught me the cost of getting that wrong in the friction direction. Every unnecessary approval gate is a ticket, a delay, and a frustrated clinician. The AppLocker isolation project taught me the cost of getting it wrong in the other direction, where automated membership evaluation on a security boundary means the boundary can silently move without anyone deciding to move it.
 
 The answer isn't a policy, it's a judgment about which failure mode you can least afford in a given control. That's the reasoning I'm trying to build deliberately, not just the tooling knowledge.
 
@@ -26,4 +26,4 @@ The answer isn't a policy, it's a judgment about which failure mode you can leas
 - [ ] SC-300 (Identity and Access Administrator) study notes
 - [ ] Home lab: Conditional Access policy simulation, including break-glass account design
 - [ ] Home lab: Entra ID dynamic group rule-writing reference sheet
-- [ ] Write up access review / lifecycle management work as it comes in
+- [ ] Write up access review and lifecycle management work as it comes in

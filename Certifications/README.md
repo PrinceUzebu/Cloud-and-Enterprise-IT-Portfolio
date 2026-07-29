@@ -11,7 +11,7 @@
 
 ## Why This Combination Matters
 
-Most junior cloud candidates have a certification. Fewer have the **Scrum/Agile delivery background** to work inside a sprint-based engineering team, and even fewer have **healthcare application training credentials** — meaning I can translate complex technical change into plain language for clinical and business end users, not just engineers.
+Most junior cloud candidates have a certification. Fewer have the **Scrum/Agile delivery background** to work inside a sprint-based engineering team, and even fewer have **healthcare application training credentials**, meaning I can translate complex technical change into plain language for clinical and business end users, not just engineers.
 
 That combination shows up directly in the [AppLocker Isolation project](../Experience-Journal/Cloud-Projects/AppLocker-Isolation.md), where the technical documentation had to serve a security engineering audience and a non-technical IT leadership audience at the same time.
 
@@ -19,6 +19,6 @@ That combination shows up directly in the [AppLocker Isolation project](../Exper
 
 ## Roadmap
 
-- [ ] **AZ-305** — Azure Solutions Architect Expert
-- [ ] **SC-300** — Identity and Access Administrator (natural next step given the [IAM work](../Experience-Journal/IAM/) in this repo)
-- [ ] **Terraform Associate** (HashiCorp) — see [Home-Labs](../Home-Labs/) for the IaC learning track
+- [ ] **AZ-305**, Azure Solutions Architect Expert
+- [ ] **SC-300**, Identity and Access Administrator (natural next step given the [IAM work](../Experience-Journal/IAM/) in this repo)
+- [ ] **Terraform Associate** (HashiCorp). See [Home-Labs](../Home-Labs/) for the IaC learning track

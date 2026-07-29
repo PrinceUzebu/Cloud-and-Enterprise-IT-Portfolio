@@ -25,7 +25,7 @@ What's here now is the security-adjacent judgment I can show from completed proj
 
 ## Planned
 
-- [ ] Write-up of a phishing / credential-compromise response, from triage through containment
+- [ ] Write-up of a phishing or credential-compromise response, from triage through containment
 - [ ] Home lab: Microsoft Defender for Endpoint alert triage walkthrough
-- [ ] Home lab: Entra ID sign-in log investigation — what a real impossible-travel alert looks like end to end
+- [ ] Home lab: Entra ID sign-in log investigation, covering what a real impossible-travel alert looks like end to end
 - [ ] Reference: incident severity classification and escalation criteria

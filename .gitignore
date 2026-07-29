@@ -5,7 +5,7 @@
 # healthcare organization. Raw ticket exports contain requester names, work
 # email addresses, phone numbers, and free-text descriptions that must never
 # be committed here. Aggregate them into Service-Desk-Experience/README.md
-# instead — themes and volume only, never raw rows.
+# instead. Themes and volume only, never raw rows.
 # ---------------------------------------------------------------------------
 
 # Raw ticket / helpdesk exports (FreshService, ServiceNow, etc.)
@@ -36,7 +36,7 @@ _working/
 *.msg
 *.eml
 
-# Credentials / secrets — nothing of this shape belongs in a portfolio repo
+# Credentials / secrets: nothing of this shape belongs in a portfolio repo
 *.env
 .env*
 *.pem
