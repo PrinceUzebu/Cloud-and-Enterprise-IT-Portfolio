@@ -14,6 +14,7 @@ A timeline of the progression from Service Desk Technician toward Cloud Engineer
 | Q2 2026 | Served as producer for Leadership Development Day and Development Day |
 | Jul 2026 | Designed and implemented the **Offshore Engineer AppLocker Isolation** project, the first end-to-end production security engineering work I owned. See the [write-up](../Cloud-Projects/AppLocker-Isolation.md) |
 | Jul 2026 | Began **Dynamic Travel Access Provisioning** design work (Entra ID plus endpoint policy integration). [In progress](../Cloud-Projects/Dynamic-Travel-Access-Provisioning.md) |
+| Jul 2026 | Became **sole IT administrator** for Monday.com and the organization's in-house AI platform. First platforms I own outright rather than support as one of several technicians. See [Enterprise Applications](../../Enterprise-Applications/) |
 | 2026 | Started this portfolio, to document real work rather than tutorial output |
 | Next | First **Infrastructure-as-Code (Terraform)** project with mentor guidance. See [Home-Labs](../../Home-Labs/) |
 | Next | **AZ-305** (Azure Solutions Architect Expert) and **SC-300** (Identity and Access Administrator) |

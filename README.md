@@ -42,7 +42,7 @@ Cloud is my main focus: Azure, Microsoft 365, Identity & Access Management, auto
 
 ## 🛠️ Core Skills
 
-`Azure Administration` · `Microsoft 365` · `Entra ID / Identity & Access Management` · `Privileged Access Management` · `Security Incident Response` · `PowerShell Automation` · `Conditional Access` · `Intune / Device Management` · `Service Desk Operations` · `Agile (Scrum)`
+`Azure Administration` · `Microsoft 365` · `Entra ID / Identity & Access Management` · `Privileged Access Management` · `Security Incident Response` · `PowerShell Automation` · `Conditional Access` · `Intune / Device Management` · `SaaS Platform Administration (Monday.com)` · `AI Platform Administration` · `Service Desk Operations` · `Agile (Scrum)`
 
 ---
 

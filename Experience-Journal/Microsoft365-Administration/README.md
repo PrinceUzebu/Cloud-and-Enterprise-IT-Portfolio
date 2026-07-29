@@ -2,7 +2,7 @@
 
 Tenant administration, Exchange Online, and Entra ID work performed in a HIPAA-regulated healthcare environment of roughly 300 endpoints.
 
-Examples below are generalized. No requester names, email addresses, or organization-identifying detail are included, consistent with this repo's [data-handling standard](../../docs/CONTRIBUTING.md).
+Examples below are generalized. No requester names, email addresses, or organization-identifying detail are included, in line with employer data-handling policy.
 
 ---
 

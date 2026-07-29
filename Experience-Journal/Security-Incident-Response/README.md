@@ -1,6 +1,6 @@
 # Security & Incident Response
 
-Security-relevant escalations and incident response participation, generalized and anonymized consistent with this repository's [data-handling standard](../../docs/CONTRIBUTING.md).
+Security-relevant escalations and incident response participation, generalized and anonymized in line with employer data-handling policy.
 
 ---
 

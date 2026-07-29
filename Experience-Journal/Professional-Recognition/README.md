@@ -1,6 +1,6 @@
 # Professional Recognition
 
-Peer and leadership feedback received at Hummingbird Healthcare. Colleague names are reduced to first name and role, consistent with this repo's [data-handling standard](../../docs/CONTRIBUTING.md).
+Peer and leadership feedback received at Hummingbird Healthcare. Colleague names are reduced to first name and role, in line with employer data-handling policy.
 
 ---
 

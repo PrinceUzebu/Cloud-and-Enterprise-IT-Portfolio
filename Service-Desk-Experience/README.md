@@ -2,7 +2,7 @@
 
 Rather than list individual tickets, this section aggregates real production support experience into skill domains, reflecting the breadth and volume of hands-on IT work performed as a Service Desk Technician in a HIPAA-regulated healthcare environment.
 
-> **Data handling note:** Every example below is generalized. No requester names, email addresses, phone numbers, ticket IDs, partner organization names, or free-text ticket content appear in this repository. Raw exports are gitignored by design, see [docs/CONTRIBUTING.md](../docs/CONTRIBUTING.md). Themes and volume only, never rows.
+> **Data handling note:** Every example below is generalized. No requester names, email addresses, phone numbers, ticket IDs, partner organization names, or free-text ticket content appear in this repository. Raw exports are kept outside this repository entirely. Themes and volume only, never rows.
 
 ---
 
