@@ -20,6 +20,14 @@ exports/
 *-export.*
 *_export.*
 
+# ---------------------------------------------------------------------------
+# _local/ is the private working folder for this project. It holds handoff
+# notes, unsanitized full-detail write-ups, and session backups. It lives
+# inside the repo for convenience but must NEVER be published. Do not remove
+# this rule.
+# ---------------------------------------------------------------------------
+_local/
+
 # Internal scaffolding, drafts, and working notes (kept local, not published)
 *Starter_Package*.md
 *_DRAFT.md
