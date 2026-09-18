@@ -1,29 +1,26 @@
 # Enterprise Applications
 
-Line-of-business application support and administration in a healthcare environment. Partner organization names are generalized in line with employer data-handling policy.
+Enterprise SaaS administration, platform ownership, and line-of-business application support in a healthcare environment. Partner organization names are generalized in line with employer data-handling policy.
 
 ---
 
-## Platform Administration Ownership
+## Platform Ownership
 
-**Sole administrator for Monday.com and an in-house AI platform, held alongside my Service Desk Technician role** (July 2026 to present)
+**Internal administrator for monday.com and an in-house AI platform, held alongside my IT Support Specialist role** (July 2026 to present)
 
-My title is still Service Desk Technician. As of July 2026 I'm also the sole IT administrator for two enterprise platforms, which is added scope on top of that role rather than a role change. It's the first work where I'm the single accountable owner of a platform rather than one contributor among several.
+My title is IT Support Specialist. Platform administration is added scope on top of that role rather than a role change, and it's the first work where I'm the accountable owner of a platform rather than one contributor among several.
 
-### Monday.com (Work Management Platform)
+### monday.com (Enterprise Work Management Platform)
 
-Sole IT administrator for the organization's work management platform, following earlier involvement in its company-wide rollout.
+**→ Full write-up: [monday.com Platform Administration](./Monday-Platform-Administration.md)**
 
-- User and permission administration: account provisioning, seat assignment, and board/workspace access scoping
-- Single escalation point for platform issues across the organization
-- End-user enablement and troubleshooting
-- Access coordination as part of onboarding and offboarding
+I'm Hummingbird's internal monday.com IT Administrator and the first point of contact for the platform company-wide. The work covers platform administration, board and workflow build, forms and dashboards, requirements translation, and user support. I work under the mentorship of an external monday.com consultant, with the arrangement structured so I take on increasing independent ownership over time.
 
-Being the only admin means there's no second person to sanity-check a permission change before it affects everyone on a board.
+Two monday.com certifications are currently in progress, covering the build side and the account administration side respectively.
 
 ### In-House AI Platform
 
-Sole IT administrator for the organization's internally developed AI assistant. This is where my **Azure AI Fundamentals (AI-900)** credential moves from certification into applied administration.
+Internal administrator for the organization's internally developed AI assistant. This is where my **Azure AI Fundamentals (AI-900)** credential moves from certification into applied administration.
 
 - Access administration and user provisioning
 - Front-line support and troubleshooting for end users
@@ -31,7 +28,18 @@ Sole IT administrator for the organization's internally developed AI assistant. 
 
 Supporting an internal AI tool is a genuinely different support problem from supporting a conventional application. With Outlook, a user reporting that something is broken usually means something is broken. With an AI assistant, the same report often means the output was unexpected rather than wrong, and the work is establishing which of the two you're dealing with before troubleshooting anything. Knowing where model behavior ends and platform misconfiguration begins is the skill this role is building.
 
-*Both sections will be expanded with specific projects and configuration work as I take them on.*
+---
+
+## Internally Deployed Applications
+
+The organization builds and deploys internal web applications to cloud-hosted static app infrastructure through an internal deployment pipeline. Supporting that has become a recurring part of the role:
+
+- Access and collaborator management for internal application source repositories
+- Supporting application owners through deployment issues, including custom domain and certificate provisioning
+- Coordinating handover of application ownership when the original owner goes on extended leave, which is a continuity problem more than a technical one
+- Escalating deployment failures that the automated pipeline could not resolve on its own
+
+This work sits at the seam between end-user support and cloud infrastructure, and it's the closest thing in my current role to day-to-day platform engineering.
 
 ---
 
@@ -42,7 +50,7 @@ Supporting an internal AI tool is a genuinely different support problem from sup
 Delivering end-user training and enablement on a major healthcare EHR platform. The relevant skill here isn't the application, it's translating technical change into language a clinician under time pressure can actually act on. That's a distinct competency from knowing the system, and it's the reason the [AppLocker project documentation](../Experience-Journal/Cloud-Projects/AppLocker-Isolation.md) could serve a security engineering audience and an IT leadership audience in the same document.
 
 - EHR application training delivery and end-user enablement at scale
-- Access and account troubleshooting for clinical staff
+- Access and account troubleshooting for clinical staff, including application load and performance issues
 - Coordinating access into **partner health system platforms**, where staff work inside an external organization's environment via VDI/Citrix, including issues where the resolution lived entirely with the partner's help desk and the job was accurate diagnosis plus a clean handoff
 
 ---
@@ -53,16 +61,20 @@ Generalized by category rather than product name:
 
 | Category | Support Provided |
 |---|---|
+| **CRM / sales platform** | User provisioning following an IT-owned provisioning process |
+| **Workforce management / QA** | Access provisioning for contact center staff |
+| **Compliance & security posture platform** | Elevated access provisioning for policy administrators |
 | **HRIS / timekeeping** | Access provisioning, authentication troubleshooting, and role-change coordination |
 | **Contact center platform** | Client installation, configuration, and audio/connectivity troubleshooting for client-facing staff |
 | **BI / analytics tooling** | Access provisioning and report-availability troubleshooting |
 | **Credential management** | Enrollment support and recovery workflows |
+| **Training authoring tools** | Software approval review and managed installation |
 
 ---
 
 ## Roadmap
 
-- [ ] Document a Monday.com administration project end to end (permission model design, or automation build)
+- [ ] Document a monday.com permission model design end to end
 - [ ] Document AI platform enablement work: what the common support patterns turn out to be, and what actually reduces them
 - [ ] Document an application integration or SSO configuration project end to end
 - [ ] Write up an application access review cycle end to end

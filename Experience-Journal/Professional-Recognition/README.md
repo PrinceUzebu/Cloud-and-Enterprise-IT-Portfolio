@@ -1,6 +1,27 @@
 # Professional Recognition
 
-Peer and leadership feedback received at Hummingbird Healthcare. Colleague names are reduced to first name and role, in line with employer data-handling policy.
+Performance review outcomes and peer feedback received at Hummingbird Healthcare. Internal review documentation is summarized rather than reproduced, and colleague names are reduced to first name and role or omitted entirely, in line with employer data-handling policy.
+
+---
+
+## Mid-Year Performance Review, August 2026
+
+**Overall rating: Elevating**
+
+At Hummingbird, Elevating means regularly exceeding role expectations and strengthening the people, processes, or experiences around you.
+
+Themes from my manager's review, summarized:
+
+- **Rapid development from a standing start.** I came into the role with limited prior traditional IT experience, and the pace of ramp-up was called out as the headline result.
+- **Meaningful ticket volume, quickly.** Taking on real queue share early enough to change how the rest of the team could allocate their time.
+- **AZ-104 completion** treated as evidence of initiative and genuine investment in the work, not just a line on a badge.
+- **Growing independence on complex problems.** Moving from escalating unfamiliar issues to working them through, with a steady and repeatable approach rather than one-off fixes.
+- **Curiosity used well.** Asking questions and seeking help at the right moments, which is a different skill from either guessing or escalating everything.
+- **Composure under load.** Staying steady during busy periods, which was noted as having a stabilizing effect on the team and not just on my own output.
+- **Openness to feedback** and the emotional intelligence to act on it.
+- **Positive impact on teammates and end users**, both inside IT and across the business.
+
+The development focus coming out of the review is building the confidence and tooling to handle routine issues fully independently and to apply a repeatable approach to more complex troubleshooting. That maps directly onto the infrastructure track in [Career Milestones](../Career-Milestones/).
 
 ---
 
@@ -20,6 +41,20 @@ Nominated by peers for the Hummingbird Healthcare "Shimmer Award," which recogni
 >
 > **Charlie**, Development Day program lead · 05/08/2026
 
+Two of the three describe the same thing: reliability under live, high-visibility conditions with no chance to retry. That's the same quality that matters during a production incident.
+
 ---
 
-Two of the three quotes describe the same thing: reliability under live, high-visibility conditions with no chance to retry. That's the same quality that matters during a production incident.
+## Peer Recognition, September 2026
+
+Unsolicited feedback from a high-performing Service Desk teammate on her way out of the organization. Summarized, and deliberately not quoted.
+
+She told me she had seen significant growth in me as a technician over the time we worked together, that my work and reputation were increasingly being noticed by influential people across the organization, and that I should keep pushing for opportunities to get deeper infrastructure experience.
+
+I'm including this for a specific reason. Manager feedback tells you how your direct chain sees you. Peer feedback from someone with nothing left to gain from giving it, on their last days, is a different signal entirely. It also confirmed something I'd only been told from above: that the move toward infrastructure work is visible outside my reporting line, and that the people who would need to support that move are already aware of it.
+
+---
+
+## What These Have In Common
+
+Across all three, the consistent thread is less about any single technical result and more about the same two things: staying steady when conditions are bad, and being the person other people can build on. Those are the qualities that decide whether someone is trusted with infrastructure, where the blast radius of a mistake is larger and the person making the change is usually working alone.

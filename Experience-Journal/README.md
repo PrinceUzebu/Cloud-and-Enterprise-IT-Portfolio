@@ -7,7 +7,8 @@ Everything here is sanitized: hostnames, group names, policy names, vendor produ
 | Section | What's Inside |
 |---|---|
 | [Cloud-Projects/](./Cloud-Projects) | End-to-end infrastructure and endpoint security projects, including the AppLocker isolation build and dynamic access design |
+| [Endpoint-Diagnostics/](./Endpoint-Diagnostics) | Root-cause investigations on real endpoints, including the ones that end in a hypothesis rather than a fix |
 | [Security-Incident-Response/](./Security-Incident-Response) | Real incidents: how they were triaged, contained, and resolved |
 | [Microsoft365-Administration/](./Microsoft365-Administration) | M365 tenant administration, Exchange Online, and Entra ID work |
-| [Professional-Recognition/](./Professional-Recognition) | Peer and leadership recognition, and what earned it |
+| [Professional-Recognition/](./Professional-Recognition) | Performance review outcomes and peer recognition, and what earned them |
 | [Career-Milestones/](./Career-Milestones) | Timeline of certifications, role changes, and key turning points |
