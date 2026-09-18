@@ -6,17 +6,17 @@ Enterprise SaaS administration, platform ownership, and line-of-business applica
 
 ## Platform Ownership
 
-**Internal administrator for monday.com and an in-house AI platform, held alongside my IT Support Specialist role** (July 2026 to present)
+**Internal administrator for Monday.com and an in-house AI platform, held alongside my IT Support Specialist role** (July 2026 to present)
 
 My title is IT Support Specialist. Platform administration is added scope on top of that role rather than a role change, and it's the first work where I'm the accountable owner of a platform rather than one contributor among several.
 
-### monday.com (Enterprise Work Management Platform)
+### Monday.com (Enterprise Work Management Platform)
 
-**→ Full write-up: [monday.com Platform Administration](./Monday-Platform-Administration.md)**
+**→ Full write-up: [Monday.com Platform Administration](./Monday-Platform-Administration.md)**
 
-I'm Hummingbird's internal monday.com IT Administrator and the first point of contact for the platform company-wide. The work covers platform administration, board and workflow build, forms and dashboards, requirements translation, and user support. I work under the mentorship of an external monday.com consultant, with the arrangement structured so I take on increasing independent ownership over time.
+I'm Hummingbird's internal Monday.com IT Administrator and the first point of contact for the platform company-wide. The work covers platform administration, board and workflow build, forms and dashboards, requirements translation, and user support. I work under the mentorship of an external Monday.com consultant, with the arrangement structured so I take on increasing independent ownership over time.
 
-Two monday.com certifications are currently in progress, covering the build side and the account administration side respectively.
+Two Monday.com certifications are currently in progress, covering the build side and the account administration side respectively.
 
 ### In-House AI Platform
 
@@ -74,7 +74,7 @@ Generalized by category rather than product name:
 
 ## Roadmap
 
-- [ ] Document a monday.com permission model design end to end
+- [ ] Document a Monday.com permission model design end to end
 - [ ] Document AI platform enablement work: what the common support patterns turn out to be, and what actually reduces them
 - [ ] Document an application integration or SSO configuration project end to end
 - [ ] Write up an application access review cycle end to end

@@ -11,10 +11,19 @@ Rather than list individual tickets, this section aggregates real production sup
 **August 2026, individual performance:**
 
 - **56 tickets handled, 54 resolved**
-- **Roughly 96% individual resolution rate**
-- **Roughly 23% of total team ticket volume** for the month
+- **96% individual resolution rate**, the highest on the team for the month
+- **Roughly 23% of total team ticket volume**
+- Of the two tickets still open at month end, one was waiting on a customer response and one was scheduled work. Nothing was stalled
 
-These are my individual figures, not team totals. I handled close to a quarter of what the Service Desk processed that month while resolving at a rate above my own handled count would suggest, meaning very little of my queue moved on to someone else.
+These are my individual figures, not team totals. I handled close to a quarter of what the Service Desk processed that month and closed nearly all of it myself.
+
+**What my manager noted that month**
+
+Summarized rather than quoted, in line with the data-handling standard for internal documents.
+
+The month leaned heavily toward infrastructure work, including support for an internal application platform, and involved working directly with the Operations team and with my manager on the more involved items rather than handling only front-line volume.
+
+The part I care about more than the percentage: I've become the person the desk brings work to when something needs to be **understood** rather than just cleared. That distinction is the whole reason this portfolio exists, and it's the difference between closing tickets and doing engineering.
 
 **Ongoing:**
 
@@ -40,7 +49,7 @@ These are my individual figures, not team totals. I handled close to a quarter o
 - Software approval review for user-requested applications, including licensing and installation
 
 ### 3. Enterprise Platform Administration
-- Internal administrator for the organization's work management platform, covering permissions, board and workflow configuration, forms, and dashboards. See [monday.com Platform Administration](../Enterprise-Applications/Monday-Platform-Administration.md)
+- Internal administrator for the organization's work management platform, covering permissions, board and workflow configuration, forms, and dashboards. See [Monday.com Platform Administration](../Enterprise-Applications/Monday-Platform-Administration.md)
 - Internal administrator for an in-house AI platform
 - Permission architecture work: identifying which specific permission gates a requested capability rather than escalating a user to full admin to unblock them
 

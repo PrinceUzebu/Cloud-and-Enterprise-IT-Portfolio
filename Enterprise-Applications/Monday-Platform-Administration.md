@@ -1,7 +1,7 @@
-# monday.com Platform Administration
+# Monday.com Platform Administration
 ### Internal IT Administrator for an enterprise work management platform
 
-**Role:** Internal monday.com IT Administrator, held alongside my IT Support Specialist role
+**Role:** Internal Monday.com IT Administrator, held alongside my IT Support Specialist role
 **Since:** July 2026
 **Scope:** Company-wide platform administration, configuration, build, and support
 
@@ -11,9 +11,9 @@
 
 ## What I Own
 
-I'm the primary internal administrator and the first point of contact for monday.com across the organization. Every platform request, permission change, build question, and problem report routes to me before it goes anywhere else.
+I'm the primary internal administrator and the first point of contact for Monday.com across the organization. Every platform request, permission change, build question, and problem report routes to me before it goes anywhere else.
 
-I work under the mentorship of an external monday.com consultant, and the arrangement is deliberately structured so that I take on more independent ownership over time rather than staying a permanent escalation layer. That's the trajectory: from supported administrator to independent platform owner.
+I work under the mentorship of an external Monday.com consultant, and the arrangement is deliberately structured so that I take on more independent ownership over time rather than staying a permanent escalation layer. That's the trajectory: from supported administrator to independent platform owner.
 
 The responsibility covers five areas.
 
@@ -80,8 +80,8 @@ Enterprise SaaS administration is not a detour from infrastructure work. It's th
 
 Both currently in progress, neither complete. See [Certifications](../Certifications/).
 
-- **monday work management Core Certification**, covering the build and configuration side
-- **monday.com Admin Certification**, covering account administration, permissions architecture, and governance
+- **Monday Work Management Core Certification**, covering the build and configuration side
+- **Monday.com Admin Certification**, covering account administration, permissions architecture, and governance
 
 ---
 
