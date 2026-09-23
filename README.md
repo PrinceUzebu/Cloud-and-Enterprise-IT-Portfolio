@@ -6,6 +6,7 @@
 ![AI-900](https://img.shields.io/badge/Microsoft-AI--900-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![PSM I](https://img.shields.io/badge/Scrum.org-PSM%20I-0078D4?style=for-the-badge&logo=scrumalliance&logoColor=white)
 ![Epic](https://img.shields.io/badge/Epic-Credentialed%20Trainer-0078D4?style=for-the-badge)
+![AI Skills Fest 2026](https://img.shields.io/badge/Microsoft-AI%20Skills%20Fest%202026-5C2D91?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Monday Work Management Core](https://img.shields.io/badge/Monday.com-Work%20Management%20Core%20In%20Progress-FFA500?style=for-the-badge&logo=mondaydotcom&logoColor=white)
 ![Monday.com Admin](https://img.shields.io/badge/Monday.com-Admin%20Certification%20In%20Progress-FFA500?style=for-the-badge&logo=mondaydotcom&logoColor=white)
 

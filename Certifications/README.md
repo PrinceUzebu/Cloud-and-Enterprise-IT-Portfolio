@@ -8,6 +8,7 @@
 | **Microsoft Certified: Azure AI Fundamentals (AI-900)** | Microsoft | 2026 | AI/ML workloads on Azure and responsible AI principles. Applied directly as internal administrator of an [in-house AI platform](../Enterprise-Applications/) |
 | **Professional Scrum Master I (PSM I)** | Scrum.org | Active | Agile delivery, sprint facilitation, and cross-functional project coordination |
 | **Credentialed Epic Trainer** | Epic Systems | Active | Healthcare application training delivery and end-user enablement at scale |
+| **AI Skills Fest 2026** | Microsoft | 2026 | Microsoft's AI skills challenge. An achievement badge rather than a proctored exam, included because the AI track is directly relevant to administering an [in-house AI platform](../Enterprise-Applications/) day to day |
 
 ---
 
@@ -28,7 +29,9 @@ See [Monday.com Platform Administration](../Enterprise-Applications/Monday-Platf
 
 AZ-104 is the anchor. It's what makes the Azure and identity work in this repo credible rather than aspirational.
 
-The Scrum and Epic credentials are the unusual part. They mean I can work inside a sprint-based engineering team and translate technical change into plain language for clinical and business users, which is exactly what the [AppLocker Isolation write-up](../Experience-Journal/Cloud-Projects/AppLocker-Isolation.md) had to do for a security engineering audience and IT leadership at the same time.
+The Scrum and Epic credentials are the unusual part, and in both cases I've held the matching role rather than only passing the exam. I spent five months as a junior Scrum Master helping a Data and Analytics division move to Agile, and worked an Epic analyst contract during an enterprise migration. See [Career Milestones](../Experience-Journal/Career-Milestones/).
+
+Together they mean I can work inside a sprint-based engineering team and translate technical change into plain language for clinical and business users, which is exactly what the [AppLocker Isolation write-up](../Experience-Journal/Cloud-Projects/AppLocker-Isolation.md) had to do for a security engineering audience and IT leadership at the same time.
 
 The Monday.com track is the newest addition and the most directly tied to current responsibility. Enterprise SaaS administration is not a detour from infrastructure work. It's the same problem set (identity, permissions, governance, change control, user impact) applied to a platform I own outright.
 
