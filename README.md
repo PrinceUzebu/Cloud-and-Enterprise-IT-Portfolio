@@ -28,7 +28,7 @@ Front-line support taught me how systems actually fail. Platform ownership taugh
 | Folder | What's Inside |
 |---|---|
 | [`Certifications/`](./Certifications) | AZ-104, AI-900, PSM I, Epic Credentialed Trainer, and two Monday.com certifications in progress, with context behind each one |
-| [`Experience-Journal/Cloud-Projects/`](./Experience-Journal/Cloud-Projects) | End-to-end infrastructure and security projects, including AppLocker isolation and dynamic access design |
+| [`Experience-Journal/Cloud-Projects/`](./Experience-Journal/Cloud-Projects) | End-to-end infrastructure and security projects: Azure Static Web App root cause analysis, AppLocker isolation, and dynamic access design |
 | [`Experience-Journal/Endpoint-Diagnostics/`](./Experience-Journal/Endpoint-Diagnostics) | Root-cause investigations on real endpoints, evidence and all, including the inconclusive ones |
 | [`Experience-Journal/Security-Incident-Response/`](./Experience-Journal/Security-Incident-Response) | Real incidents: how they were triaged, contained, and resolved |
 | [`Experience-Journal/Microsoft365-Administration/`](./Experience-Journal/Microsoft365-Administration) | M365 tenant administration, Exchange Online, Entra ID, and app registration work |
