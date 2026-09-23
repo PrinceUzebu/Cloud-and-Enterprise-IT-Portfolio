@@ -5,7 +5,7 @@
 | Certification | Issuer | Earned | What It Demonstrates |
 |---|---|---|---|
 | **Microsoft Certified: Azure Administrator Associate (AZ-104)** | Microsoft | July 2026 | Managing Azure identities, governance, storage, compute, and virtual networks. The credential that moved me from supporting infrastructure to working on it |
-| **Microsoft Certified: Azure AI Fundamentals (AI-900)** | Microsoft | 2026 | AI/ML workloads on Azure and responsible AI principles. Applied directly as internal administrator of an [in-house AI platform](../Enterprise-Applications/) |
+| **Microsoft Certified: Azure AI Fundamentals (AI-900)** | Microsoft | 2025 | AI/ML workloads on Azure and responsible AI principles. Earned before I joined Hummingbird, and now applied directly as internal administrator of an [in-house AI platform](../Enterprise-Applications/) |
 | **Professional Scrum Master I (PSM I)** | Scrum.org | Active | Agile delivery, sprint facilitation, and cross-functional project coordination |
 | **Credentialed Epic Trainer** | Epic Systems | Active | Healthcare application training delivery and end-user enablement at scale |
 | **AI Skills Fest 2026** | Microsoft | 2026 | Microsoft's AI skills challenge. An achievement badge rather than a proctored exam, included because the AI track is directly relevant to administering an [in-house AI platform](../Enterprise-Applications/) day to day |
