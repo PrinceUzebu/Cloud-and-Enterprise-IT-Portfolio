@@ -76,12 +76,14 @@ Enterprise SaaS administration is not a detour from infrastructure work. It's th
 
 ---
 
-## Certification Track
+## Certifications
 
-Both currently in progress, neither complete. See [Certifications](../Certifications/).
+Both completed in **October 2026**. See [Certifications](../Certifications/).
 
-- **Monday Work Management Core Certification**, covering the build and configuration side
-- **Monday.com Admin Certification**, covering account administration, permissions architecture, and governance
+- **Monday.com Admin Certified**, covering account administration, permissions architecture, user lifecycle, and governance
+- **Monday.com Work Management Core Certified**, covering the build and configuration side
+
+Worth noting the order: I was already the internal administrator before sitting either exam, so these formalized work already underway rather than qualifying me to begin it.
 
 ---
 
@@ -90,4 +92,4 @@ Both currently in progress, neither complete. See [Certifications](../Certificat
 - [ ] Document a permission model design end to end, sanitized
 - [ ] Document an automation or workflow build from requirement through delivery
 - [ ] Build out a platform governance reference: naming conventions, workspace structure standards, and an access review cadence
-- [ ] Complete both certifications and update this page with what changed in how I work
+- [ ] Apply the governance material from the Admin certification to a formal access review cadence for the platform

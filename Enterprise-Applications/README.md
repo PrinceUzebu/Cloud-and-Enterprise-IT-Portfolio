@@ -16,7 +16,7 @@ My title is IT Support Specialist. Platform administration is added scope on top
 
 I'm Hummingbird's internal Monday.com IT Administrator and the first point of contact for the platform company-wide. The work covers platform administration, board and workflow build, forms and dashboards, requirements translation, and user support. I work under the mentorship of an external Monday.com consultant, with the arrangement structured so I take on increasing independent ownership over time.
 
-Two Monday.com certifications are currently in progress, covering the build side and the account administration side respectively.
+Both Monday.com certifications are complete as of October 2026: **Admin Certified** and **Work Management Core Certified**, covering account administration and the build side respectively. I was already administering the platform before sitting either exam.
 
 ### In-House AI Platform
 

@@ -25,7 +25,8 @@ A timeline of the move into IT and the progression toward Infrastructure and Clo
 | 2026 | Title change from Service Desk Technician to **IT Support Specialist** |
 | Sep 2026 | Root-caused a total save failure on an internally built **Azure Static Web App** that had been reported as an expired Entra ID client secret. Found an application defect instead, restored service, and fixed the bug. See the [write-up](../Cloud-Projects/Static-Web-App-Save-Failure.md) |
 | Sep 2026 | **Peer recognition** from a departing high performer, specifically encouraging deeper infrastructure work and noting growing visibility across the organization |
-| Sep 2026 | Began **Monday Work Management Core** and **Monday.com Admin** certifications, both in progress |
+| Sep 2026 | Began the **Monday.com Admin** and **Work Management Core** certification tracks |
+| Oct 2026 | Earned **Monday.com Admin Certified** and **Monday.com Work Management Core Certified**, formalizing platform administration work already underway |
 | Ongoing | Being developed by my manager and the Head of IT Operations toward an **Infrastructure Engineer** trajectory, with leadership discussing accelerating that progression based on performance |
 | Next | First **Infrastructure-as-Code (Terraform)** project with mentor guidance |
 
