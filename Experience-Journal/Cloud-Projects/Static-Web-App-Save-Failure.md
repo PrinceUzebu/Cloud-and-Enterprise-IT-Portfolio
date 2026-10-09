@@ -2,7 +2,7 @@
 ### Diagnosing total save failure on an internally built Azure Static Web App
 
 **Status:** ✅ Resolved. Service restored, root cause fixed, confirmed by the application owner
-**Domain:** Azure Static Web Apps · Entra ID · Application Diagnostics · Root Cause Analysis
+**Domain:** Azure Static Web Apps · Azure Functions · Cosmos DB · Entra ID · Application Diagnostics · Root Cause Analysis
 
 > *Note on detail level: the application name, its URL, the partner organization it reports on, and the requester are omitted. Error behavior, reasoning, and measurements are unchanged from the real incident.*
 
@@ -104,6 +104,27 @@ Recorded rather than quietly closed.
 
 ---
 
+## A Second Case: Same Platform, Different Defect, Same Silence
+
+The "other applications" follow-up above stopped being hypothetical. A second internally built tracking application on the same hosting pattern (Azure Static Web Apps, a small serverless API, Cosmos DB storage) was reported as having lost a night of team data entry, and then refusing to save anything after a redeploy meant to protect it.
+
+**The evidence pointed somewhere specific.** The browser console showed every load of the main dataset returning **404** and a save returning **400**, while the application displayed a list of entries that all had blank fields. Blank-but-present data is a signature: it meant the app was showing its built-in starter list because the server had nothing to give it.
+
+| Step | Action | Finding |
+|---|---|---|
+| 1 | Read the API code before touching any storage | The API upserts each document into Cosmos DB, which only accepts JSON objects |
+| 2 | Read the client's save path | The main dataset was sent as a bare JSON array. Cosmos rejects that with a 400, and the client never checked the response, so the user saw a normal save |
+| 3 | Walked every version in the repository's history | Every version since the app was first deployed sent the same bare array. The dataset had **never** been persisted, in any version |
+| 4 | Explained the asymmetry | A smaller settings document, already an object, saved fine. That is why the app looked mostly healthy |
+
+Step 3 changed the whole plan. The request had been framed as a backup restore, with a carefully negotiated best case and worst case for rolling data back. The history proved there was nothing on the server to restore, so the honest answer was recovery from what users still held (an export file, or the summary emails the app generates when a review is marked complete) rather than a restore that would have found nothing.
+
+**Fix.** Wrapped arrays in an object on save and unwrapped them on load, with backward compatibility for the old shape. Made every save path check the server's response, show the user a clear failure, and keep their edits in the form instead of discarding them. No API or infrastructure changes. The change went to a preview branch and deployment first, then merged to production through a pull request, and saving was confirmed working in production.
+
+**What this adds to the pattern.** Two applications, two different storage defects, and the same aggravating factor in both: **a client that does not check whether the write succeeded.** In the first case that turned a size limit into a mystery. In the second it hid a total failure for weeks behind a working-looking interface. Checking the save response is now the first thing worth looking at in any app built this way.
+
+---
+
 ## Skills Demonstrated
 
 - Root cause analysis that contradicted a confident, well-evidenced reported diagnosis
@@ -113,6 +134,8 @@ Recorded rather than quietly closed.
 - Backing up before destructive remediation
 - Separating service restoration from defect correction, and sequencing them correctly
 - Converting a silent failure into a reported one
+- Using repository history as forensic evidence, to prove what data could and could not exist before promising a recovery
+- Staged delivery through a preview deployment and pull request before production
 - Explaining a technical root cause in plain language to a non-engineer without either condescending or burying them
 
 ---
