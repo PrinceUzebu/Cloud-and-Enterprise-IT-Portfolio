@@ -41,6 +41,25 @@ Most of these resolve with standard remediation. The ones that don't are the int
 
 **The useful conclusion from the pattern is that it is not one fault.** Grouping every "VDI is bad today" report into a single bucket hides at least three distinct classes: endpoint-local peripheral and bus problems, session broker and connection-state problems, and network-path problems. They present almost identically to the user and have completely different fixes. Sorting an incoming report into the right class before troubleshooting is worth more than any individual fix in this document.
 
+### A Confirmed Network-Path Case
+
+A later report from the same population turned out to be the network-path class, and unlike the investigation below, this one closed with a measured cause.
+
+The symptom was one-way call audio inside the VDI session: the user could hear callers, but callers heard silence or static. A restart appeared to fix it and did not, which is the first useful data point, since a fault that survives a restart is unlikely to be transient client state.
+
+| Step | Action | Finding |
+|---|---|---|
+| 1 | Checked local audio routing on the physical endpoint | Correct input and output devices selected. Endpoint-local peripheral class ruled out |
+| 2 | Ran a packet loss test | Clean. The path was not dropping packets |
+| 3 | Measured latency | Very high, far beyond what real-time audio tolerates. Packet loss and latency are different failures, and a clean loss test on its own would have closed the investigation too early |
+| 4 | Checked the local wireless link | Not the source of the latency |
+| 5 | Restarted the corporate SSE/proxy client and retested | Slight improvement only |
+| 6 | Disconnected the SSE/proxy client and retested | Latency dropped sharply and call audio recovered immediately |
+
+The cause was the corporate SSE/proxy client adding enough latency to the real-time media path to break outbound call audio. The client was taken out of the path for that user, and the finding went to the security team, who own the client and decide whether real-time media should bypass inspection. Turning off a security control is a workaround, not a fix, so the durable answer belongs with the team that owns it.
+
+This case is also the strongest argument for the triage path recommended at the end of this write-up. The report looked identical to the endpoint-hardware case below, and the first three checks sorted it into the right class in minutes.
+
 ---
 
 ## Objective

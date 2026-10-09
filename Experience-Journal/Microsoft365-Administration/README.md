@@ -35,6 +35,7 @@ The more interesting identity work has come from supporting internally built app
 - Teams calling and meeting issues: audio and video device diagnostics, client vs. VDI-specific failure modes
 - OneDrive and SharePoint sync troubleshooting, including permission-inheritance issues on shared document libraries
 - Guest and external collaborator access for partner organization staff, including diagnosing whether an account exists to be added at all before troubleshooting the sign-in
+- **Entra B2B guest onboarding modeled on an existing guest.** Used an existing partner guest's group memberships as the reference, but confirmed with the requester which groups the new guest actually needed instead of copying everything, since cloning a reference account is how access quietly accumulates. When the invitation rejected a valid address that had worked for a colleague at the same domain, the cause was a hidden Unicode character (a typographic hyphen) carried in from rich-text copy and paste. Retyping the address by hand fixed it
 
 ## Licensing & Provisioning
 
