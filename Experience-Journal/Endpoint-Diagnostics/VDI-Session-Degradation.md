@@ -174,7 +174,24 @@ Ordered so that the cheapest test that could disprove the hypothesis comes first
 - [ ] **Capture bus-level telemetry** if the first two steps are inconclusive: per-port utilization and USB error counters during a reproduction window.
 - [ ] **Correlate timestamps.** Log dropout times against network throughput to convert a circumstantial link into a measured one.
 - [ ] **Revisit the VDI-side and network-path evidence** if all endpoint-side tests come back clean, since eliminating the endpoint would make the remote side the remaining candidate.
-- [ ] **Build a triage path for the recurring reports.** Given how often this symptom class arrives, the highest-value output is not fixing one endpoint. It is a short set of questions that sorts an incoming report into endpoint-local, session-state, or network-path before anyone starts resetting things.
+- [x] **Build a triage path for the recurring reports.** Given how often this symptom class arrives, the highest-value output is not fixing one endpoint. It is a short set of questions that sorts an incoming report into endpoint-local, session-state, or network-path before anyone starts resetting things. A first version, built from the cases worked so far, is below.
+
+---
+
+## Triage Path For Recurring VDI Reports
+
+The three classes above turned out to be incomplete. Later cases added two more that present identically to the user: a **media offload** gap, where real-time audio is processed in the wrong place, and an **identity boundary**, where the user is changing a credential that the failing system does not use. Each question below is cheap to ask and rules out a whole class before anyone resets anything.
+
+| Question | If yes | Class | Example from a real case |
+|---|---|---|---|
+| Is the user being asked for a password on the virtual desktop or a partner-hosted app, and did they just change their corporate password? | Confirm which identity provider owns that credential before resetting anything | Identity boundary | A corporate password change did nothing for a desktop that authenticates against a partner organization's directory. The reset belonged to the partner's help desk |
+| Does the session connect but call audio fail or degrade, while everything else works? | Check whether the softphone's VDI media plugin is installed on the **physical** endpoint | Media offload | The plugin was missing, so media could not be offloaded from the virtual desktop. Installing it and resetting the session fixed calls immediately, confirmed with the vendor's own diagnostics |
+| Is the problem visual (pixelation, lag) inside a published app that runs inside the virtual desktop? | Restart each layer separately, top layer first | Session state | The fix was restarting the published-app session, then the virtual desktop beneath it. Clearing cache and restarting the PC had already failed, because neither touches those layers |
+| Is a new user opening the published apps before signing in to the virtual desktop? | Walk through the sign-in order | Session state | The apps live *inside* the desktop. Opening them first from the physical machine fails every time. This points to an onboarding documentation gap, not a fault |
+| Does the network path show high latency even with a clean packet loss test? | Test with the corporate SSE/proxy client out of the path | Network path | See the confirmed case above |
+| Only after all of the above: are the audio device and the network adapter sharing a USB segment? | Reconstruct the bus topology | Endpoint-local | The original investigation in this write-up |
+
+The order matters as much as the questions. The first five can each be answered in under five minutes. The last one took most of a day, which is why it goes last rather than first.
 
 ---
 
